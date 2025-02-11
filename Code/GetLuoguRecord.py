@@ -27,12 +27,8 @@ if sth!='I agree' and sth!='uuddllrrbaba':
     exit(0)
 Cid=''
 Uid=''
-if sth=='uuddllrrbaba':
-    Cid='99b320f96ede5f9a570e68f80480ee87d6a16e72'
-    Uid='836542'
-else:
-    Cid=input('Please input your __client_id:')
-    Uid=input('Please input your _uid:')
+Cid=input('Please input your __client_id:')
+Uid=input('Please input your _uid:')
 Person=input('Please input who you want to get:')
 Pages=int(input('Please input how many pages do you want to get:'))
 s=requests.session()
