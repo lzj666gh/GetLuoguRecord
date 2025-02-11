@@ -21,7 +21,7 @@ def ChangeTimeLZJ(x):
     return ret[:-1]
 print('Welcome to use my program to get the record of doing exercises.')
 sth=input('I promise that I will never throw your cookie out.\nplease input \"I agree\" to agree give your cookie to me:')
-if sth!='I agree' and sth!='uuddllrrbaba':
+if sth!='I agree':
     print('thanks you for using my porgram')
     os.system('pause')
     exit(0)
